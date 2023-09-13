@@ -1,9 +1,10 @@
 import React from "react";
+import Registration from "./Registration";
 
 function App() {
   return (
     <div className="App">
-      <h1>Shibaji Sahu</h1>
+      <Registration />
     </div>
   );
 }
