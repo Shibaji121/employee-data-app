@@ -9,20 +9,20 @@ export default function Registration() {
       <h1>Employee Registration Form</h1>
       <div className="form-container">
         <div className="name">
-          <div>
+          <div className="col-flex">
             <label>First Name*</label>
             <input type="text" placeholder="Enter your name" required />
           </div>
-          <div>
+          <div className="col-flex">
             <label>Last Name*</label>
             <input type="text" placeholder="Enter your name" required />
           </div>
         </div>
-        <div className="dob">
+        <div className="dob col-flex">
           <label>DOB</label>
-          <input type="date" placeholder="fbe" />
+          <input className="fl-input" type="date" placeholder="fbe" />
         </div>
-        <div className="study">
+        <div className="study col-flex">
           <label>Study</label>
           <select>
             <option>B.E</option>
@@ -30,20 +30,20 @@ export default function Registration() {
           </select>
         </div>
         <div className="dates">
-          <div>
+          <div className="col-flex">
             <label>Start Date</label>
             <input type="date" />
           </div>
-          <div>
+          <div className="col-flex">
             <label>End Date</label>
             <input type="date" />
           </div>
         </div>
-        <div className="salary">
+        <div className="salary col-flex">
           <label>Current Salary</label>
-          <input type="number" placeholder="e.g. 300000" />
+          <input className="fl-input" type="number" placeholder="e.g. 300000" />
         </div>
-        <div className="description">
+        <div className="description col-flex">
           <label>Description</label>
           <Editor
             editorState={content}

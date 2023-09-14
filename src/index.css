@@ -6,3 +6,87 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.App {
+  width: 70%;
+  margin: auto;
+}
+.reg-container {
+  width: inherit;
+  margin: 4rem auto;
+}
+.reg-container h1 {
+  text-align: center;
+  color: #314363;
+  font-size: 50px;
+}
+.form-container {
+  width: 85%;
+  margin: auto;
+}
+.name,
+.dates {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+label {
+  color: #263857;
+  margin-top: 3rem;
+}
+.name input,
+.dates input {
+  width: 17rem;
+  height: 3rem;
+  padding: 0 1rem;
+  border-radius: 15px;
+  margin-top: 10px;
+  border: none;
+  background: #f8fbff;
+}
+input::placeholder {
+  color: #7e98ba;
+}
+.col-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.fl-input,
+select {
+  height: 3rem;
+  padding: 0 1rem;
+  border-radius: 15px;
+  margin-top: 10px;
+  border: none;
+  background: #f8fbff;
+}
+.wrapperClassName {
+  border: 1px solid rgb(231, 221, 221);
+  padding: 1rem;
+  border-radius: 15px;
+}
+.editorClassName {
+  background-color: #e9f2ff;
+  border-radius: 10px;
+  padding: 1rem;
+  max-height: 6rem !important;
+}
+.submit {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3rem;
+}
+.submit button {
+  width: 19rem;
+  height: 4rem;
+  border-radius: 20px;
+  color: #142a51;
+  font-size: 18px;
+}
+.cancel {
+  background-color: #e3e3e3;
+}
+.save {
+  background-color: #ffff;
+}
