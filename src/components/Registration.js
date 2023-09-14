@@ -7,7 +7,7 @@ export default function Registration() {
   return (
     <div className="reg-container">
       <h1>Employee Registration Form</h1>
-      <div className="form-container">
+      <form className="form-container">
         <div className="name">
           <div className="col-flex">
             <label>First Name*</label>
@@ -57,7 +57,7 @@ export default function Registration() {
           <button className="cancel">Cancel</button>
           <button className="save">Save</button>
         </div>
-      </div>
+      </form>
     </div>
   );
 }
